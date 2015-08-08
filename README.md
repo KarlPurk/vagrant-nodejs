@@ -9,9 +9,12 @@ Ubuntu Server 14.04 with Nodejs
 **installation:**
 
 * Install Vagrant
-* Install Virtual
+* Install VirtualBox
 * Clone the repository git clone [git://github.com/KarlPurk/vagrant-nodejs.git](git://github.com/KarlPurk/vagrant-nodejs.git)
 
+**optional installation steps**
+* delete README.md
+* delete .git
 
 **running:**
 
