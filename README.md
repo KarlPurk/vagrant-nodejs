@@ -1,7 +1,7 @@
-<h2>Vagrant and Puppet configuration for NodeJS, Redis & MongoDB</h2>
+<h2>Vagrant and Puppet configuration for NodeJS</h2>
 
 Vagrant configuration with puppet to create a Virtual Box machine with 
-Ubuntu Server 14.04, Nodejs / Redis / MongoDB
+Ubuntu Server 14.04 with Nodejs
 
 
 
@@ -10,7 +10,7 @@ Ubuntu Server 14.04, Nodejs / Redis / MongoDB
 
 * Install Vagrant
 * Install Virtual
-* Clone the repository git clone [git://github.com/joaquimserafim/vagrant-nodejs-redis-mongodb.git](git://github.com/joaquimserafim/vagrant-nodejs-redis-mongodb.git)
+* Clone the repository git clone [git://github.com/KarlPurk/vagrant-nodejs.git](git://github.com/KarlPurk/vagrant-nodejs.git)
 
 
 **running:**
@@ -22,19 +22,10 @@ Ubuntu Server 14.04, Nodejs / Redis / MongoDB
 
 
 
-**access mongo and redis from your machine:**
-
-* redis.cli h localhost -p 6379
-* mongo localhost 27017
-
-*attention: you may have this ports occupied by your installations for redis and mongodb in your machine*
-
-
-
 **development:**
 
 by default this vagrantfile have this configuration for shared folder between the host and the VM
-*[config.vm.synced_folder "~/Projects", "/vagrant"](https://github.com/joaquimserafim/vagrant-nodejs-redis-mongodb/blob/master/Vagrantfile#L25)*
+*[config.vm.synced_folder "~/", "/vagrant"](https://github.com/KarlPurk/vagrant-nodejs/blob/master/Vagrantfile#L25)*
 
 
 
