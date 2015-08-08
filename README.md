@@ -32,8 +32,6 @@ by default this vagrantfile have this configuration for shared folder between th
 **Puppet Manifest will install:**
 
 * [n](https://github.com/visionmedia/n) a node.js version management
-* Redis - last stable release
-* MongoDB - 2.6.\*
 * wget
 * git
 * vim htop
